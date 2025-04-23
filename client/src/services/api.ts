@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Customer } from '../types';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://credit-risk-dashboard.onrender.com/api';
 
 export const fetchCustomers = async (): Promise<Customer[]> => {
   const response = await axios.get(`${API_URL}/customers`);
