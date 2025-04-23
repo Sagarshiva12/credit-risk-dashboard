@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Card, Col, Row, Statistic, Table, Progress, Tag, Select, Button, message } from 'antd';
+import { Card, Col, Row, Statistic, Table, Progress, Select, message } from 'antd';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { fetchCustomers, updateCustomerStatus } from '../services/api';
 import { Customer } from '../types';
